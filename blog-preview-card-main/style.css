@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+body {
+  background-color: rgb(247, 187, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 300px;
+  background-color: white;
+  padding: 13px;
+  border-radius: 10px;
+  border: 2.4px solid black;
+  box-shadow: 5px 5px 1px black;
+}
+.learning {
+  font-size: 13px;
+  margin-top: 15px;
+  font-weight: bold;
+  background-color: orange;
+  display: inline-block;
+}
+.published {
+  font-size: 16px;
+  padding-top: 10px;
+}
+h1 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.text {
+  color: gray;
+}
+.name {
+  font-size: 9px;
+}
+.image-container {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.illustration {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Hooper {
+  height: 20px;
+  width: 20px;
+}
+.end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
